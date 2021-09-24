@@ -12,7 +12,7 @@ if platform.system() == "Windows":
         pass    
     voices = engine.getProperty('voices')
     engine.setProperty('voice', voices[1].id)
-    engine.setProperty('rate', 150)
+    engine.setProperty('rate', 250)
     engine.setProperty('volume', 1.2)       
     def print_say(txt):
         print(txt)
