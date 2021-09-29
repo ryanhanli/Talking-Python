@@ -2,13 +2,13 @@
 from .mysr import voice_to_text
 from .mysay import print_say
 
-''' Starting in Chapter 7, add the following five lines in this file 
+#Starting in Chapter 7, add the following five lines in this file 
 from .mywakeup import wakeup
 from .mytimer import timer
 from .myalarm import alarm
 from .myjoke import joke
 from .myemail import email
-'''
+
 
 ''' Starting in Chapter 8, add the following line in this file 
 from .myknowall import know_all
