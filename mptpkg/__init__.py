@@ -9,10 +9,8 @@ from .myalarm import alarm
 from .myjoke import joke
 from .myemail import email
 
-
-''' Starting in Chapter 8, add the following line in this file 
 from .myknowall import know_all
-'''
+
 
 ''' In Chapter 17, add the following in this file
 from .mymusic import music_play, music_stop
