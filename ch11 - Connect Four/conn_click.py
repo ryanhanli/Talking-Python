@@ -55,6 +55,7 @@ def horizontal4(x, y, turn):
             and occupied[x+dif+2][y] == turn\
             and occupied[x+dif+3][y] == turn\
             and  x+dif >= 0:
+                # ^ ensure no negative indexing above
                 win = True            
         except IndexError:
             pass
