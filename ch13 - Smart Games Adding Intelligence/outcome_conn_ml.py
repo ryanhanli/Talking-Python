@@ -168,7 +168,7 @@ def simulate():
     return winlose+moves_made
 # Repeat the game 1000 times and record all game outcomes
 results = []        
-for x in range(1000):
+for x in range(100):
     result = simulate()
     results.append(result)    
 with open('outcome_conn_ml.pickle', 'wb') as fp:
