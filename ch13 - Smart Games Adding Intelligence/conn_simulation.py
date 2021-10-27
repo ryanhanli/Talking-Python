@@ -2,6 +2,8 @@ from random import choice
 import pickle
 
 # Define a simulate() function to generate a complete game
+# Law of large numbers if you perform the same experiment many times,
+# the average outcome should be close to the expected value.
 def simulate():
     occupied = [list(),list(),list(),list(),list(),list(),list()]
     validinputs = [1,2,3,4,5,6,7]
