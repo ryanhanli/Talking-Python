@@ -1,4 +1,5 @@
 from yahoo_fin import stock_info as si
+# Install the module
 
 # Start an infinite loop
 while True:
