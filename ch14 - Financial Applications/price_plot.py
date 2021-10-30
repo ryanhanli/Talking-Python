@@ -13,6 +13,7 @@ stock = pdr.get_data_yahoo(ticker, start = start_date, end = end_date)
 print(stock)
 # Obtain dates
 stock['Date'] = stock.index.map(mdates.date2num)
+print(stock['Date'])
 # Choose figure size
 fig = plt.figure(dpi = 128, figsize = (10, 6))
 # Format date to place on the x-axis
