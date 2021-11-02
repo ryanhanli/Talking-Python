@@ -34,3 +34,5 @@ beta = round(results.params['exret_sp'],2)
 print(f'The alpha of the stock of {ticker} is {alpha} percent.')
 print(f'The beta of the stock of {ticker} is {beta}.')
 
+
+# These alpha and beta values are on a per day basis
