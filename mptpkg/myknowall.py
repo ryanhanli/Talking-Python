@@ -4,7 +4,7 @@ import wikipedia
 from mptpkg import print_say
 
 # Put your WolframApha APIkey below
-APIkey = "XEXJUY-G6XPPYUYR4"
+APIkey = "{your APIkey}"
 wolf = wolframalpha.Client(APIkey)
 
 def know_all(v_inp):
